@@ -22,7 +22,7 @@ In your `dev-requirements.yml` (best not to mix with other roles), add:
 
 ```yaml
 - src: git@github.com:zeebox/ansible-php5-xdebug
-  version: latest
+  version: master
   scm: git
   name: beamly.php5-xdebug
 ```
