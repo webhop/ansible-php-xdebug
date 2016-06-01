@@ -18,9 +18,20 @@ Installs the latest PHP Xdebug on an Ubuntu host. This enables you to hook your 
 Usage
 -----
 
+In your `dev-requirements.yml` (best not to mix with other roles), add:
+
+```yaml
+- src: git@github.com:zeebox/ansible-php5-xdebug
+  version: latest
+  scm: git
+  name: beamly.php5-xdebug
+```
+
+and in your Ansible playbook, add:
+
 ```yaml
 roles:
-    - { role: webhop.php5-xdebug }
+    - { role: beamly.php5-xdebug }
 ```
 
 Author Information
