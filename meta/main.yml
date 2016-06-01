@@ -1,0 +1,28 @@
+---
+galaxy_info:
+  author: Luis Ramos
+  description: Installs PHP Xdebug on an Ubuntu host
+  company: Beamly Ltd
+  license: MIT
+  min_ansible_version: 1.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - natty
+    - oneiric
+    - precise
+    - quantal
+    - raring
+    - saucy
+    - trusty
+  - name: Debian
+    versions:
+    - lenny
+    - squeeze
+    - wheezy
+  categories:
+    - cloud
+    - clustering
+    - networking
+dependencies:
+  - webhop.php5
