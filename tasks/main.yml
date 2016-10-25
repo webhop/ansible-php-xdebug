@@ -9,5 +9,3 @@
 
 - name: Configure PHP FPM to use Xdebug.
   file: src='/etc/php5/mods-available/xdebug.ini' dest='/etc/php5/fpm/conf.d/20-xdebug.ini' state=link
-  notify:
-    - restart php5-fpm
