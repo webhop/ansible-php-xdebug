@@ -1,5 +1,6 @@
 ---
 
+php_version: 5.6
 php_xdebug_extension: 'xdebug.so'
 
 php_xdebug_remote_enable: on
