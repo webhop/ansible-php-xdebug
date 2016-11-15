@@ -1,5 +1,5 @@
 - name: Install Xdebug
-  apt: pkg='php5-xdebug' state=present
+  apt: pkg='php-xdebug' state=present
 
 - name: Write Xdebug config
   template: src=xdebug.ini.j2 dest='/etc/php/{{ php_version }}/mods-available/xdebug.ini' owner=root group=root mode=0644
