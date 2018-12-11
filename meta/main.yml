@@ -25,4 +25,4 @@ galaxy_info:
     - clustering
     - networking
 dependencies:
-  - webhop.php5
+  - webhop.php7

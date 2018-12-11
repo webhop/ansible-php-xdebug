@@ -1,5 +1,5 @@
-PHP5-Xdebug Ansible Role
-==========================
+PHP-Xdebug Ansible Role
+=======================
 
 Installs the latest PHP Xdebug on an Ubuntu host. This enables you to hook your PHP application to IDEs of your choice that has facilities for remote debugging your source code.
 
@@ -21,17 +21,17 @@ Usage
 In your `dev-requirements.yml` (best not to mix with other roles), add:
 
 ```yaml
-- src: git@github.com:zeebox/ansible-php5-xdebug
+- src: git@github.com:zeebox/ansible-php-xdebug
   version: master
   scm: git
-  name: beamly.php5-xdebug
+  name: beamly.php-xdebug
 ```
 
 and in your Ansible playbook, add:
 
 ```yaml
 roles:
-    - { role: beamly.php5-xdebug }
+    - { role: beamly.php-xdebug }
 ```
 
 Author Information
