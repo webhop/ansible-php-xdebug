@@ -8,6 +8,7 @@ galaxy_info:
   platforms:
   - name: Ubuntu
     versions:
+    - bionic
     - natty
     - oneiric
     - precise
@@ -15,6 +16,7 @@ galaxy_info:
     - raring
     - saucy
     - trusty
+    - xenial
   - name: Debian
     versions:
     - lenny
